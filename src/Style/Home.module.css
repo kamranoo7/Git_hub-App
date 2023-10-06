@@ -1,0 +1,155 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  button.back-button {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  button.back-button:hover {
+    background-color: #999;
+  }
+  
+  /* Style for the follower buttons */
+  
+  ul.followers-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li.follower-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button.follower-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* App.css */
+
+/* ... (previous styles) */
+
+/* Style for the followers and repositories grid */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between items as needed */
+  }
+  
+  .grid-item {
+    flex: 1;
+    min-width: 300px; /* Adjust the minimum width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for followers and repositories */
+  .followers-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .followers-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .followers-avatar {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .followers-username {
+    font-weight: bold;
+  }
+  
+  .repositories-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .repositories-item {
+    margin-bottom: 10px;
+  }
+  
+  /* ... (previous styles) */
+  
+  button.follower-button:hover {
+    background-color: #0056b3;
+  }
+  
